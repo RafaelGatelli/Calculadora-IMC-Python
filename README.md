@@ -19,5 +19,5 @@ Certifique-se de ter o Python instalado.
 python Calculadora_IMC.py
 
 ## 👨‍💻 Autor
-**Rafael Toscan Gatelli**
-*Graduado em Administração | Estudante de Análise e Desenvolvimento de Sistemas*
+** Rafael Toscan Gatelli **
+* Graduado em Administração | Estudante de Análise e Desenvolvimento de Sistemas *
