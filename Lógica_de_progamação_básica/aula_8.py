@@ -1,5 +1,11 @@
-if 1 and 1:
-    print(True and 1 and False)
+valor_1 = input("valor 1= ")
+valor_2 = input("valor 2= ")
+valor_3 = input("valor 3= ")
+valor_4 = input("valor 4= ")
+valor_5 = input("valor 5= ")
 
-if 1 and 1:
-    print(False and True and 2)
+print(f"{valor_1:->10}")
+print(f"{valor_2:->10}")
+print(f"{valor_3:->10}")
+print(f"{valor_4:->10}")
+print(f"{valor_5:->10}")
