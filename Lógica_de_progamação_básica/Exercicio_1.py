@@ -1,10 +1,11 @@
-nome = input("Digite seu nome: ") 
-idade = int(input("Digite sua idade: ")) 
-if nome:
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ") # AQUI ESTA ERRADO, SE NAO POR A IDADE ESTÁ DANDO ERRO
+
+if nome and idade:
     print(f"Seu nome é {nome}")
     print(f"Seu nome invertido é " f"{nome[::-1]}")
-    if " " in nome:                          # AQUI AINDA ESTA ERRADO
-            print("seu nome tem espaços")   # AQUI AINDA ESTA ERRADO
+    if " " in nome:                          # se tem " " no {nome}:
+            print("seu nome tem espaços")   
     else:
             print("Seu nome não tem espaços")
     print(f"Seu nome tem " f"{len(nome)} " f"letras")
