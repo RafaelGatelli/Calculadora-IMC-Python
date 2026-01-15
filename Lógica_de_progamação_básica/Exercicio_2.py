@@ -1,6 +1,6 @@
 
 """
-SUPOSIÇÃO QUE TODOS MESES TENHAM 30 DIAS
+SUPONHA QUE TODOS MESES TENHAM 30 DIAS
 E HOJE É DIA 14/01/2026!
 """
 
@@ -21,6 +21,8 @@ if nome and dia and mes and ano:
     print(f"Você nasceu a " f"{nasceu_meses} meses")
     print(f"Você viveu " f"{nasceu_dias} dias")
     print(f"E se passaram " f"{nasceu_segundos:,.0f} segundos des do seu nascimento")
+
+print(" ")
 
 if dia >= 14:
     dias = dia - 14
